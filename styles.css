@@ -1,0 +1,54 @@
+:root {
+  --div-height: 50vh;
+  --uni-margin: 10vw;
+  --mini-margin: 5vw;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-img {
+  height: var(--div-height);
+  margin-left: var(--mini-margin);
+  margin-bottom: var(--mini-margin);
+}
+
+#card {
+  color: white;
+  background-color: grey;
+  width: 60vw;
+  height: var(--div-height);
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+#card-text {
+  font-size: 1rem;
+  height: var(--div-height);
+  padding: 0 5vw;
+  line-height: 1.2rem;
+}
+
+#figures {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fact-number {
+  margin: auto;
+  width: 25%;
+}
+
+#purple-text {
+  color: purple;
+  font-weight: 800;
+}
